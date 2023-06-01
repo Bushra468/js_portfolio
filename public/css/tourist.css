@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: fixed;
+    background-color:  rgba(200,170,85,255);
+    font-family: lato;
+ }
+ header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    z-index: 1;
+}
+
+/* LOGO */
+
+.logo{
+    font-size: 2.5rem;
+    color: #cccccc;
+    padding: 0.4rem;
+    text-decoration: none;
+    position:relative;
+    
+}
+
+
+
+.navbar a{
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: #cccccc;
+    padding: 0.4rem ;
+    position: sticky;
+
+}
+.navbar a:hover{
+    text-transform: inherit;
+    color: #b3b3b3;
+    border-radius: 20%;
+    background-color: #d04949;
+    border: 1px solid #ccc;
+    position: sticky;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #d04949 ;
+    border-radius: 20%;
+    position: sticky;
+}
+.icon{
+    display: none;
+    cursor: pointer;
+    height: 20px;
+   
+}
+/* BANNER */
+
+
+.banner{
+    width: 100%;
+    height: 86vh;
+    text-align: center;
+}
+
+.banner .banner-text{
+    padding-top: 8%;
+}
+
+.banner-text h2{
+    padding-bottom: 3%;
+    letter-spacing: 1.3px;
+    font-size: 250%;
+    color: #604f1f;
+    text-align: center;
+
+}
+
+.banner-text h3{
+    letter-spacing: 1.3px;
+    font-size: 225%;
+    color:#cccccc;
+}
+
+.banner-text p{
+    font-size: 130%;
+    padding-bottom: 5%;
+    color:#cccccc;
+}
+
+.banner button{
+    margin-top: 15%;
+}
+
+.banner2{
+    width: 100%;
+    height: 86vh;
+    text-align: center;
+}
+
+.banner2 .banner2-text{
+    padding-top: 25%;
+}
+
+.banner2-text h2{
+    padding-bottom: 3%;
+    letter-spacing: 1.3px;
+    font-size: 250%;
+    color: #604f1f;
+}
+
+.banner2-text h3{
+    letter-spacing: 1.3px;
+    font-size: 225%;
+    color: #cccccc;
+}
+
+.banner2-text p{
+    font-size: 130%;
+    padding-bottom: 5%;
+    color: #cccccc;
+}
+
+.banner3{
+    width: 100%;
+    height: 86vh;
+    text-align: center;
+}
+
+.banner3 .banner3-text{
+    padding-top: 27%;
+}
+
+.banner3-text h2{
+    padding-bottom: 3%;
+    letter-spacing: 1.3px;
+    font-size: 250%;
+    color: #604f1f;
+}
+.banner3-text h3{
+    letter-spacing: 1.3px;
+    font-size: 225%;
+    color: #cccccc;
+}
+
+.banner3-text p{
+    font-size: 130%;
+    padding-bottom: 5%;
+    color: #cccccc;
+}
+
+
+/* Footer */
+
+.The-end{
+    margin-top: 28%;
+    padding-bottom: 6%;
+}
+
+.footer{
+    padding-top: 5%;
+    color:  #cccccc;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.footer .logo{
+    font-size: 2.5rem;
+    color: #cccccc;
+    padding: 1.45rem;
+    text-decoration: none;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.The-end .navbar{
+    padding-right: 4%;
+}
+
+.The-end .navbar a{
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color:  #cccccc;
+    padding: 0.4rem ;
+    position: sticky;
+}
+
+.The-end .navbar a:hover{
+    text-transform: inherit;
+    color: #b3b3b3;
+    border-radius: 20%;
+    background-color: #d04949;
+    border: 1px solid #ccc;
+    position: sticky;
+}
+.The-end .navbar a:hover,
+.The-end .navbar a.active{
+    color: #d04949 ;
+    border-radius: 20%;
+    position: sticky;
+
+}
+
+.ce{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.The-end .contact{
+    padding-left: 3.4rem;
+    padding-top: 6%;
+    color:  #cccccc;
+}
+
+.The-end .contact h4{
+    padding-bottom: 2%;
+}
+
+.ce .maps{
+    padding-left: 30%;
+    padding-top: 6%;
+}
+
+.social-media{
+    display: flex;
+    padding-top: 3%;
+}
+
+.social-media a{
+    padding-left: 2%;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .banner{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .banner p{
+        font-size: 115%;
+    }
+
+    .banner2{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .banner2 p{
+        font-size: 115%;
+    }
+
+    .banner3{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .banner3 p{
+        font-size: 115%;
+    }
+
+    .ce .maps{
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+
+    .banner p{
+        font-size: 115%;
+    }
+
+    .banner h3{
+        font-size: 170%;
+    }
+
+    .banner h2{
+        font-size: 200%;
+    }
+
+    .banner2{
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+
+    .banner2 p{
+        font-size: 115%;
+    }
+
+    .banner2 h3{
+        font-size: 170%;
+    }
+
+    .banner3{
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+
+    .banner3 p{
+        font-size: 115%;
+    }
+
+    .banner3 h3{
+        font-size: 170%;
+    }
+
+    .The-end{
+        display: none;
+    }
+}

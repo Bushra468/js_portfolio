@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: fixed;
+   background-color:  rgba(200,170,85,255);
+   font-family: lato;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    z-index: 1;
+}
+
+/* LOGO */
+
+header .logo{
+    font-size: 2.5rem;
+    color: #cccccc;
+    padding: 0.4rem;
+    text-decoration: none;
+}
+
+
+
+header .navbar a{
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color:  #cccccc;
+    padding: 0.4rem ;
+    position: sticky;
+}
+
+header .navbar a:hover{
+    text-transform: inherit;
+    color: #b3b3b3;
+    border-radius: 20%;
+    background-color: #d04949;
+    border: 1px solid #ccc;
+    position: sticky;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #d04949 ;
+    border-radius: 20%;
+    position: sticky;
+
+}
+.icon{
+    display: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+/* BANNER */
+
+.banner{
+    width: 100%;
+    height: 86vh;
+    background-image: url(/images/pexels-mikhail-nilov-7828670.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner .banner-text{
+    padding-top: 8%;
+    z-index: 100;
+}
+
+
+.banner-text h1{
+    padding-bottom: 5%;
+    letter-spacing: 1.3px;
+    font-size: 250%;
+    color:  #cccccc;
+}
+
+
+.banner-text h2{
+    padding-bottom:0px;
+    letter-spacing: 1.3px;
+    font-size: 225%;
+    color:  #cccccc;
+    margin-top: -4%;
+}
+
+banner-text p{
+    margin-top: -4%;
+    font-size: 130%;
+    padding-bottom: 5%;
+    color:  #cccccc;
+}
+
+
+.Hobbies .heading h3{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color:  #cccccc;
+}
+
+
+/* three Section */
+
+.three-center{
+    padding: 12px 40px 0 12px;
+}
+
+/* Section 1 */
+
+.three-center .sec1{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    float: left;
+}
+
+.three-center .sec1 .img{
+    
+    padding-left: 45%;
+    text-align: center;
+}
+
+.three-center .sec1 .left1{
+    padding-top: 6%;
+    padding-left: 42%;
+}
+
+
+/* Section 2 */
+
+.three-center .sec2{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.three-center .sec2 .img{
+    padding-left: 48%;
+    text-align: center;
+}
+
+.three-center .sec2 .left1{
+    padding-top: 6%;
+    padding-left: 38%;
+}
+
+
+/* Section 3 */
+
+.three-center .sec3{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    position: relative;
+    float: left;
+}
+
+.three-center .sec3 .img{
+    padding-left: 40%;
+    text-align: center;
+}
+
+.three-center .sec3 .left1{
+    padding-top: 6%;
+    padding-left: 29%;
+}
+
+
+
+
+.Skills .heading h3{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #cccccc;
+}
+
+
+
+
+
+/* three Section */
+
+.skills-center{
+    padding: 12px 40px 0 12px;
+}
+
+/* Section 1 */
+
+.skills-center .skills1{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    float: left;
+}
+
+.skills-center .skills1 .img{
+    padding-left: 45%;
+    text-align: center;
+}
+
+.skills-center .skills1 .skill-left1{
+    padding-top: 6%;
+    padding-left: 41%;
+}
+
+
+
+/* Section 2 */
+
+.skills-center .skills2{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    float: left;
+}
+
+.skills-center .skills2 .img{
+    padding-left: 40%;
+    text-align: center;
+}
+
+.skills-center .skills2 .skill-left1{
+    padding-top: 6%;
+    padding-left: 40%;
+}
+
+
+
+
+/* Section 3 */
+
+.skills-center .skills3{
+    padding-bottom: 3%;
+    width: 29%;
+    height: 29%;
+    margin: 0 2%;
+    float: left;
+}
+
+.skills-center .skills3 .img{
+    padding-left: 40%;
+    text-align: center;
+}
+
+.skills-center .skills3 .skill-left1{
+    padding-top: 6%;
+    padding-left: 35%;
+}
+
+
+
+/* Footer */
+
+.The-end{
+    /* background-color:rgb(224, 200,200); */
+
+    padding-bottom: 6%;
+}
+
+.footer{
+    padding-top: 5%;
+    color:  #cccccc;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.footer .logo{
+    font-size: 2.5rem;
+    color: #cccccc;
+    padding: 1.45rem;
+    text-decoration: none;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.The-end .navbar{
+    padding-right: 4%;
+}
+
+.The-end .navbar a{
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color:  #cccccc;
+    padding: 0.4rem ;
+    position: sticky;
+}
+
+.The-end .navbar a:hover{
+    text-transform: inherit;
+    color: #b3b3b3;
+    border-radius: 20%;
+    background-color: #d04949;
+    border: 1px solid #ccc;
+    position: sticky;
+}
+.The-end .navbar a:hover,
+.The-end .navbar a.active{
+    color: #d04949 ;
+    border-radius: 20%;
+    position: sticky;
+
+}
+
+.ce{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.The-end .contact{
+    padding-left: 3.4rem;
+    padding-top: 6%;
+    color:  #cccccc;
+}
+
+.The-end .contact h4{
+    padding-bottom: 2%;
+}
+
+.ce .maps{
+    padding-left: 30%;
+    padding-top: 6%;
+}
+
+.social-media{
+    display: flex;
+    padding-top: 3%;
+}
+
+.social-media a{
+    padding-left: 2%;
+}
+
+/* Media Query */
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .The-end{
+        display: none;
+    }
+    
+    .banner .banner-text{
+        padding-top: 15%;
+    }
+
+    .banner-text h1{
+        font-size: 200%;
+    }
+
+    .banner-text h2{
+        font-size: 185%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .banner .banner-text{
+        padding-top: 25%;
+    }
+
+    .banner-text h1{
+        font-size: 150%;
+    }
+
+    .banner-text h2{
+        font-size: 120%;
+    }
+
+    .three-center{
+        padding: 12px 0 0 0;
+    }
+
+    .skills-center{
+        padding: 12px 0 0 0;
+    }
+}
